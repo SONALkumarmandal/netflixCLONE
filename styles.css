@@ -1,0 +1,651 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    height:93vh;
+    width:100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+}
+.wrapper .picture{
+    width: 100%;
+    height: 100%;
+   overflow-x: hidden;
+   overflow-y: hidden;
+    position: relative;
+}
+.wrapper .picture img
+{
+    
+    width: 100vw;
+    height: 100%;
+    transform: scale(1.25,1.52);
+    position: absolute;
+    top: -90px;
+
+}
+.hero
+{
+    width: 100vw;
+    height: 714px;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.807) 0%,rgba(0, 0, 0, 0.455) 37%,rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frontcover
+{
+    padding-top: 19px;
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: center;
+}
+h1{
+    text-decoration: solid;
+    color: white;
+    font-family: NKufi,Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 2.93rem;
+    font-weight: 800;
+}
+h3{
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-top: 18px;
+
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 8px;
+}
+ .container .get1{
+    height: 58px;
+    width: 368px;
+   background-color: rgba(46, 45, 45, 0.415);;
+    padding: 13px;
+    color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+ }
+ .get1 h4{
+    color: rgb(255, 255, 255);
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5px;
+ }
+ .container .click1
+ {
+    width: 215px;
+    height: 56px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+ }
+ .click1 h2{
+    color: rgb(255, 255, 255);
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.navbar
+{
+    height: 12%;
+    width: 100%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+}
+.navbar .logo img
+{   
+    margin-left: 169px;
+    margin-top: 19px;
+    height: 49px;
+    width: 158px;
+}
+.btn
+{
+    text-align: center;
+    height: 34px;
+    width: 132px;
+    margin-top: 27px;
+    border-radius: 4px;
+}
+#btn1
+{
+   border: 0.1px solid rgba(255, 255, 255, 0.559);
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 52vw;
+}
+#btn2
+{
+    background-color: rgb(242, 26, 26);
+    margin-left: 20px;
+    width: 88px;
+}
+#btn1 h4{
+   color: white;
+   margin-top: 5px;
+  right: 4px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+}
+#btn2 h4
+{
+    color:white;
+    margin-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.border1
+{
+    width: 100%;
+    height:8px;
+    background-color: rgba(0, 0, 0, 0.862);
+}
+.second
+{
+   overflow: hidden;
+    width: 100%;
+    height:65vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner2
+{
+    position: relative;
+    display: flex;
+}
+.inner2 .vid
+{
+    position: absolute;
+    margin-left: 82px;
+    height: 98px;
+    width: 145px;
+    margin-top: 99px;
+    transform: scale(0.97,0.99);
+    z-index: -1;
+}
+.second .inner2{
+    
+    transform: scale(0.90,0.90);
+}
+.inner1 #this
+{
+  padding: 0;
+  text-align: start;
+}
+.third
+{
+    width:100%;
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.third img{
+    transform: scale(0.9);
+}
+.box1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   align-items: end;
+  bottom: 25px;
+ 
+}
+.download {
+    height: 94px;
+    width: 311px;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+    bottom: 60px;
+    background-color: black;
+}
+.bhitar1
+{
+    width: 80px;
+}
+.bhitar2
+{
+    width: 100%;
+}
+.bhitar1 h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+.bhitar2 h3{
+   font-size: medium;
+   text-align: end;
+   font-weight: 400;
+   color: rgb(57, 57, 255);
+}
+.imp
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.imp .bhitar1 h3
+{
+    padding-left: 10px;
+   text-align: start;
+}
+.imp .bhitar2 h3{
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    padding-left: 10px;
+}
+.download .bhitar1
+{
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 100%;
+    align-items: center;
+   color: rgb(255, 255, 255);
+}
+.download .bhitar2
+{
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 25px;
+}
+.download img{
+    height: 89px;
+    padding-left: 5px;
+}
+
+.box2 #this2
+{
+    text-align: start;
+}
+.box2 #this3
+{
+    padding: 0;
+    text-align: start;
+}
+.border2
+{
+    width: 100%;
+    height:8px;
+    background-color: rgba(0, 0, 0, 0.862);
+}
+.border3
+{
+    width: 100%;
+    height:8px;
+    background-color: rgba(0, 0, 0, 0.862);
+}
+.fourth
+{
+    overflow: hidden;
+    width: 100%;
+    height:65vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dibba2
+{
+    position: relative;
+    display: flex;
+}
+.dibba2 img{
+     transform: scale(0.8);
+     z-index: 2;
+}
+.dibba2 .vid2
+{
+    position: absolute;
+   left: 130px;
+   margin-bottom: 40px;
+    height: 98px;
+    width: 145px;
+    margin-top: 70px;
+    transform: scale(0.69,0.69);
+    z-index: 1;
+}
+.dibba1 #this4
+{
+    text-align: start;
+}
+.dibba1 #this5
+{
+    padding: 0;
+    text-align: start;
+}
+.border4
+{
+    width: 100%;
+    height:8px;
+    background-color: rgba(0, 0, 0, 0.862);
+}
+.fifth
+{
+    overflow: hidden;
+    width: 100%;
+    height:68vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dibba4 .new{
+    padding: 0;
+    text-align: start;
+}
+.border5
+{
+    width: 100%;
+    height:8px;
+    background-color: rgba(0, 0, 0, 0.862);
+}
+.sixth
+{
+    overflow: hidden;
+    width: 100%;
+    height:123vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title
+{
+    margin-top: 67px;
+}
+.sixth .chotu1
+{
+    
+    margin-top: 28px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132); 
+}
+.chotu1:hover
+{ 
+    background-color: rgb(78,78,78);
+}
+.sixth .chotu2
+{
+    margin-top: 10px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132);
+    display: flex;
+}
+.chotu2:hover
+{ 
+    background-color: rgb(78,78,78);
+}
+.sixth .chotu3
+{
+    margin-top: 10px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132);
+    display: flex;
+}
+.chotu3:hover
+{
+    background-color: rgb(78,78,78);
+}
+.sixth .chotu4
+{  
+    margin-top: 10px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132);
+    display: flex;
+}
+.chotu4:hover
+{
+    background-color: rgb(78,78,78);
+}
+.sixth .chotu5
+{  
+    margin-top: 10px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132);
+    display: flex;
+    
+}
+.chotu5:hover
+{
+    background-color: rgb(78, 78, 78);
+}
+.sixth .chotu6
+{  
+    margin-top: 10px;
+    width: 77%;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.132);
+    display: flex;
+}
+.chotu6:hover
+{
+    background-color: rgb(78, 78, 78);
+}
+.chotu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu1 h2{
+   margin: 22px;
+   color: white;
+   font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-weight: normal;
+}
+.chotu2 h2{
+    margin: 22px;
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+ }
+ .chotu3 h2{
+    margin: 22px;
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+ }
+ .chotu4 h2{
+    margin: 22px;
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+ }
+ .chotu5 h2{
+    margin: 22px;
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+ }
+ .chotu6 h2{
+    margin: 22px;
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+ }
+ .sixth h3{
+    color: white;
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-weight: normal;
+   font-size: 1.31rem;
+   margin-top: 40px;
+ }
+.container2
+ {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 11px;
+ }
+ .container2 .get{
+    height: 58px;
+    width: 368px;
+   background-color: rgba(46, 45, 45, 0.415);;
+    padding: 13px;
+    color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+ }
+ .get h4{
+    color: rgb(255, 255, 255);
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5px;
+ }
+ .container2 .click
+ {
+    width: 215px;
+    height: 56px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+ }
+.border6
+{
+    width: 100%;
+    height:9px;
+    background-color: rgba(0, 0, 0, 0.792);
+}
+.contact
+{
+    width: 100%;
+    height: 23vw;
+    background-color: black;
+}
+.getsub{
+    height: 20px;
+    width: 50px;
+    background-color: rgba(25, 24, 24, 0.193);
+}
+.click h2{
+    color: rgb(255, 255, 255);
+    font-family:Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.chotu1 .plus h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.chotu2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chotu2 .plus2 h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.chotu3 .plus3 h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.chotu4 .plus4 h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.chotu5 .plus5 h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.chotu6 .plus6 h1{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 5rem;
+  text-align: center;
+  padding-bottom: 6px;  
+  padding-right: 15px;
+  font-weight: 100;
+}
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+.contact a
+{
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgba(255, 255, 255, 0.681);
+    font-weight: lighter;
+}
+.end
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
